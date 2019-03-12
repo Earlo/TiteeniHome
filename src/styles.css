@@ -1,0 +1,182 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #000000;
+}
+
+#title {
+  padding: 0.5em 0;
+  font-size: 3em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.shine {
+  color: #008800;
+}
+
+.time0 {
+  -webkit-animation: titeeni-shine 5s infinite;
+          animation: titeeni-shine 5s infinite;
+}
+
+.time1 {
+  -webkit-animation: titeeni-shine 5.1s infinite;
+          animation: titeeni-shine 5.1s infinite;
+}
+
+.time2 {
+  -webkit-animation: titeeni-shine 5.2s infinite;
+          animation: titeeni-shine 5.2s infinite;
+}
+
+.time3 {
+  -webkit-animation: titeeni-shine 5.3s infinite;
+          animation: titeeni-shine 5.3s infinite;
+}
+
+.time4 {
+  -webkit-animation: titeeni-shine 5.4s infinite;
+          animation: titeeni-shine 5.4s infinite;
+}
+
+.time5 {
+  -webkit-animation: titeeni-shine 5.5s infinite;
+          animation: titeeni-shine 5.5s infinite;
+}
+
+.time6 {
+  -webkit-animation: titeeni-shine 5.6s infinite;
+          animation: titeeni-shine 5.6s infinite;
+}
+
+.time7 {
+  -webkit-animation: titeeni-shine 5.7s infinite;
+          animation: titeeni-shine 5.7s infinite;
+}
+
+.time8 {
+  -webkit-animation: titeeni-shine 5.8s infinite;
+          animation: titeeni-shine 5.8s infinite;
+}
+
+.time9 {
+  -webkit-animation: titeeni-shine 5.9s infinite;
+          animation: titeeni-shine 5.9s infinite;
+}
+
+.time10 {
+  -webkit-animation: titeeni-shine 6s infinite;
+          animation: titeeni-shine 6s infinite;
+}
+
+.time11 {
+  -webkit-animation: titeeni-shine 6.1s infinite;
+          animation: titeeni-shine 6.1s infinite;
+}
+
+.time12 {
+  -webkit-animation: titeeni-shine 6.2s infinite;
+          animation: titeeni-shine 6.2s infinite;
+}
+
+.time13 {
+  -webkit-animation: titeeni-shine 6.3s infinite;
+          animation: titeeni-shine 6.3s infinite;
+}
+
+.time14 {
+  -webkit-animation: titeeni-shine 6.4s infinite;
+          animation: titeeni-shine 6.4s infinite;
+}
+
+.time15 {
+  -webkit-animation: titeeni-shine 6.5s infinite;
+          animation: titeeni-shine 6.5s infinite;
+}
+
+.time16 {
+  -webkit-animation: titeeni-shine 6.6s infinite;
+          animation: titeeni-shine 6.6s infinite;
+}
+
+.time17 {
+  -webkit-animation: titeeni-shine 6.7s infinite;
+          animation: titeeni-shine 6.7s infinite;
+}
+
+.time18 {
+  -webkit-animation: titeeni-shine 6.8s infinite;
+          animation: titeeni-shine 6.8s infinite;
+}
+
+.time19 {
+  -webkit-animation: titeeni-shine 6.9s infinite;
+          animation: titeeni-shine 6.9s infinite;
+}
+
+.time20 {
+  -webkit-animation: titeeni-shine 7s infinite;
+          animation: titeeni-shine 7s infinite;
+}
+
+@-webkit-keyframes titeeni-shine {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes titeeni-shine {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#app {
+  font-family: monospace;
+  color: #008800;
+  margin-top: 60px;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
+/*# sourceMappingURL=styles.css.map */

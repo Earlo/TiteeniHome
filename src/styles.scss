@@ -1,0 +1,77 @@
+$direction: 0;
+$delay0: 5s;
+$delay1: 4s;
+$delay2: 6s;
+
+html, body { 
+  margin:0; 
+  padding:0; 
+  height:100%;
+  background-color: #000000;  
+}
+
+#title {
+  padding: 0.5em 0;
+  font-size: 3em;
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+.shine {
+	color: #008800;
+}
+
+@mixin timex {
+  @for $i from 0 through 20 {
+    $delay: 5 + $i * 0.1;
+    .time#{$i} { animation: titeeni-shine #{$delay}s infinite; }
+  }
+}
+@include timex;
+
+@keyframes titeeni-shine{
+  0%{  
+    opacity: 1;
+  }
+  20%{
+    opacity: 0.2;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+#app {
+  font-family: monospace;
+  color: #008800;
+  margin-top: 60px;
+
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  -moz-transform: rotate(180deg * $direction);
+  transform: rotate(180deg * $direction);
+  -ms-transform: rotate(180deg * $direction);
+  -o-transform: rotate(180deg * $direction);
+  transform: rotate(180deg * $direction);
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
+}
