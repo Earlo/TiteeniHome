@@ -114,11 +114,7 @@
         </div>
       </div>
     </div>
-    <div v-if="state === 'events'" class="flex justify-between items-center mb-4">
-      memeeventsms
-    </div>
-
-    <img width="400em" src="./assets/logo.svg" onerror="this.onerror=null; this.src='image.png'">
+    <img width="400em" src="https://svgshare.com/i/Bkt.svg" onerror="this.onerror=null; this.src='./image.png'">
   </div>
 </template>
 
