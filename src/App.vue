@@ -15,11 +15,12 @@
       ><span class="shine time12">i</span
       ><span class="shine time13">s</span
       ><span class="shine time14">t</span
-      ><span class="shine time15">o</span>
-      <span class="shine time16">2</span
-      ><span class="shine time17">0</span
-      ><span class="shine time18">1</span
-      ><span class="shine time19">9</span
+      ><span class="shine time15">o</span
+      ><span class="shine time16">t</span>
+      <span class="shine time17">2</span
+      ><span class="shine time18">0</span
+      ><span class="shine time19">1</span
+      ><span class="shine time20">9</span
     ></div>
         
     <a v-on:click="setState('landing')">
@@ -45,7 +46,7 @@
           Titeenien Taistot on Suomen tietoteekkareiden välinen kilpailu, jossa taistellaan viidessä huikeassa lajissa mestaruudesta. 
         </div>
         <div>
-          Titeenit alkavat perjantaina 15.3. sodanjulistussitseillä klo 18:30 Smökissä ja jatkuu seuraavana päivänä varsinaisilla lajeilla. Mikäli ei ole ilmoittautunut sitseille, Rantasaunalla on vaihtoehtoista ohjelmaa illan ajan.
+          Titeenit alkavat perjantaina 15.3. sodanjulistussitseillä klo 18:30 Smökissä ja jatkuu seuraavana päivänä varsinaisilla lajeilla. Mikäli ei ole ilmoittautunut sitseille, Gorsussa on vaihtoehtoista ohjelmaa illan ajan.
         </div>
       </div>
     </div>

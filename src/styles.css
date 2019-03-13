@@ -121,6 +121,11 @@ html, body {
           animation: titeeni-shine 7s infinite;
 }
 
+.time21 {
+  -webkit-animation: titeeni-shine 7.1s infinite;
+          animation: titeeni-shine 7.1s infinite;
+}
+
 @-webkit-keyframes titeeni-shine {
   0% {
     opacity: 1;

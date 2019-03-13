@@ -22,7 +22,7 @@ html, body {
 }
 
 @mixin timex {
-  @for $i from 0 through 20 {
+  @for $i from 0 through 21 {
     $delay: 5 + $i * 0.1;
     .time#{$i} { animation: titeeni-shine #{$delay}s infinite; }
   }
