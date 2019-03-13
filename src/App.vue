@@ -154,14 +154,12 @@ export default {
   },
   mounted () {
     axios
-      .get('http://localhost:5000/result')
+      .get('http://13.53.217.34:5000/result')
       .then(request => {
 
         var t_sum = {};
         var e_dec = {}
-        console.log("test")
         request.data.forEach(function(item) {
-          console.log(item)
           if(t_sum[item.kilta] === undefined) {
             t_sum[item.kilta] = 0;
           }
@@ -184,7 +182,6 @@ export default {
           }
           this.teams[key].value = t_sum[key]
         }
-        console.log("mememe")
         this.info = request.data
       })
   }
