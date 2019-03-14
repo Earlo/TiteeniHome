@@ -115,6 +115,13 @@
       </div>
     </div>
     <img width="400em" src="https://svgshare.com/i/Bkt.svg" onerror="this.onerror=null; this.src='./image.png'">
+    <div id="sponssi">
+      YHTEISTYÖSSÄ
+    </div>
+    <img style="margin: 0 5em" width="200em" src="https://www.siili.com/themes/siili_2017/logo.svg" onerror="this.onerror=null; this.src='./image.png'">
+    <img style="margin: 0 5em" width="200em" src="https://startuplifers.org/wp-content/uploads/2018/11/compressed_Startuplifers_Logo_Red_RGB_medium.png" onerror="this.onerror=null; this.src='./image.png'">
+
+
   </div>
 </template>
 
