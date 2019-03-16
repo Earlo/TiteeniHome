@@ -98,17 +98,17 @@
       </div>
 
       <div v-for="e in events" v-bind:key="e.number" class="row mb-12">
-        <div class="col-sm-12">
-          <h2 class="col-sm-2">Event {{ e.number }}:</h2>
-          <h4 class="col-sm-2">{{ e.desc }}:</h4>
+        <div class="col-sm-12" style="text-align: left; padding-bottom: 1em">
+          <h2 class="col-sm-6" >{{ e.number }}. Laji: {{ e.name }}</h2>
+          <div class="col-sm-12 col-md-6">
+            <span>{{ e.desc }}</span>
+          </div>
         </div>
         <div class="col-sm-12">
         
           <div v-for="(p, index) in e.points" v-bind:key="index" class="row mb-12">
-            <div class="col-sm-12">
-              <span class="col-sm-2">{{ p.kilta }} ansaitsee</span>
-              <span class="col-sm-2">{{ p.pisteet }} pistettä</span>
-              <span class="col-sm-2">sillä {{ p.syy }}!</span>
+            <div class="col-sm-12" style="text-align: left">
+              <span class="col-sm-2" style="padding-left: 10em">- {{ p.kilta }} ansaitsee {{ p.pisteet }} pistettä sillä {{ p.syy }}! Upeaa!</span>
             </div>
           </div>
         </div>
@@ -141,13 +141,13 @@ export default {
         'OTIT': { color: 'dark', value: 0, logo: "./assets/photo_2019-03-06_16-12-47.png" }
       },
       events: [
-        { number: 0, name: 'XXX', location: 'Web', desc: 'TBA', points: [] },
-        { number: 1, name: 'XXX', location: 'Alvari', desc: 'TBA', points: [] },
-        { number: 2, name: 'XXX', location: 'Alvari', desc: 'TBA', points: [] },
-        { number: 3, name: 'XXX', location: 'Alvari', desc: 'TBA', points: [] },
-        { number: 4, name: 'XXX', location: 'Smökki', desc: 'TBA', points: [] },
-        { number: 5, name: 'XXX', location: 'Smökki', desc: 'TBA', points: [] }
-      ]
+        { number: 0, name: 'titeeni.city', location: 'Web', desc: 'Rakenna titeenihahmosi! Oletko level 1 fuksi vai level 85 Mouho? Täällä otetaan tietoteekkarista mittaa. Esineitä hahmollesi löydät mystisitä qr-koodeista.', points: [] },
+        { number: 1, name: 'Esterata', location: 'Alvari', desc: 'Esteradalla killat pääsevät tekemään fyysista tuttavuutta erinäisiin tietoliikenneprotokolliin.', points: [] },
+        { number: 2, name: 'Kuutiopallo & Kumikanaultimate', location: 'Alvari', desc: 'Kuutiopallo sekä kumikanaultimate ovat Tietokillan perinteisimpiä ulkopelejä. Nyt kaikki killat pääsevät tutustumaan niihin raikkaassa kevätsäässä', points: [] },
+        { number: 3, name: 'TBA', location: 'Smökki', desc:'' /*'Tämä kommunik- ja koordinaatiotaitoja vaativa videopeli pistää dynaamisimmatkin ryhmäpelaajat koetukselle'*/, points: [] },
+        { number: 4, name: 'TBA', location: 'Smökki', desc:'' /*'Tässä tarkkuuslajissa tietoteekkarit pääsevät oppimaan tärkeitä taitoja tulevaan singulariteetin-jälkeiseen ihmisten ja robottien väliseen loppusotaan.' */, points: [] },
+        { number: 5, name: 'Otaniemipeli', location: 'Smökki', desc: 'Titeenit huipentuvat tähän mitä perinteikkäimpään ja ikävuosissa jopa Tietokiltaa vanhempaan kaikkien tietoteekkarilautapelien kanta-äitiin. Jokaisen killan tulee lähettää peliin 3 hengen edustusjoukkue.', points: [] }
+      ] 
     }
   },
   methods: {
