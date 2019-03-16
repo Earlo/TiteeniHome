@@ -144,8 +144,8 @@ export default {
         { number: 0, name: 'titeeni.city', location: 'Web', desc: 'Rakenna titeenihahmosi! Oletko level 1 fuksi vai level 85 Mouho? Täällä otetaan tietoteekkarista mittaa. Esineitä hahmollesi löydät mystisitä qr-koodeista.', points: [] },
         { number: 1, name: 'Esterata', location: 'Alvari', desc: 'Esteradalla killat pääsevät tekemään fyysista tuttavuutta erinäisiin tietoliikenneprotokolliin.', points: [] },
         { number: 2, name: 'Kuutiopallo & Kumikanaultimate', location: 'Alvari', desc: 'Kuutiopallo sekä kumikanaultimate ovat Tietokillan perinteisimpiä ulkopelejä. Nyt kaikki killat pääsevät tutustumaan niihin raikkaassa kevätsäässä', points: [] },
-        { number: 3, name: 'TBA', location: 'Smökki', desc:'' /*'Tämä kommunik- ja koordinaatiotaitoja vaativa videopeli pistää dynaamisimmatkin ryhmäpelaajat koetukselle'*/, points: [] },
-        { number: 4, name: 'TBA', location: 'Smökki', desc:'' /*'Tässä tarkkuuslajissa tietoteekkarit pääsevät oppimaan tärkeitä taitoja tulevaan singulariteetin-jälkeiseen ihmisten ja robottien väliseen loppusotaan.' */, points: [] },
+        { number: 3, name: 'Puolikäsismäsh', location: 'Smökki', desc:'Tämä kommunik- ja koordinaatiotaitoja vaativa videopeli pistää dynaamisimmatkin ryhmäpelaajat koetukselle', points: [] },
+        { number: 4, name: 'Roombapongi', location: 'Smökki', desc:'Tässä tarkkuuslajissa tietoteekkarit pääsevät oppimaan tärkeitä taitoja tulevaan singulariteetin-jälkeiseen ihmisten ja robottien väliseen loppusotaan.', points: [] },
         { number: 5, name: 'Otaniemipeli', location: 'Smökki', desc: 'Titeenit huipentuvat tähän mitä perinteikkäimpään ja ikävuosissa jopa Tietokiltaa vanhempaan kaikkien tietoteekkarilautapelien kanta-äitiin. Jokaisen killan tulee lähettää peliin 3 hengen edustusjoukkue.', points: [] }
       ] 
     }
